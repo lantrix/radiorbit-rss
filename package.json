@@ -1,0 +1,9 @@
+{
+  "name": "radiorbit-rss",
+  "version": "0.0.1",
+  "description": "RSS Generator for Radio Orbit - mikehagan.com",
+  "main": "index.js",
+  "repository": "https://github.com/lantrix/radiorbit-rss.git",
+  "author": "Lantrix <lantrix@pobox.com>",
+  "license": "BSD-3-Clause"
+}

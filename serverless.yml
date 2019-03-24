@@ -1,0 +1,23 @@
+service: radiorbit-rss
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: us-east-2
+
+package:
+  exclude:
+    - packages/api/node_modules/**/*
+  include:
+    packages/api/handler.ts
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: hello
+          method: get
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
