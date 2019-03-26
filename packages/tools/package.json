@@ -1,0 +1,21 @@
+{
+    "name": "awesome-tools",
+    "version": "1.0.0",
+    "repository": "https://github.com/lantrix/radiorbit-rss.git",
+    "author": "Lantrix <lantrix@pobox.com>",
+    "license": "BSD-3-Clause",
+    "description": "Awesome Tools",
+    "files": [
+        "eslint.config.js",
+        "jest.config.js",
+        "prettier.config.js"
+    ],
+    "scripts": {
+        "test": "./task test"
+    },
+    "dependencies": {
+        "eslint": "^5.15.3",
+        "jest": "^24.5.0",
+        "prettier": "^1.16.4"
+    }
+}
