@@ -19,6 +19,8 @@
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint"
   },
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "@types/node": "^11.12.0",
+    "lerna": "^3.13.1",
+    "typescript": "^3.3.4000"
   }
 }
