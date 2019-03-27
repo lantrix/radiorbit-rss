@@ -1,5 +1,5 @@
 {
-  "name": "radiorbit-rss",
+  "name": "radiorbit-rss-api",
   "version": "0.0.1",
   "description": "API for RSS Generator for Radio Orbit - mikehagan.com",
   "main": "handler.ts",
