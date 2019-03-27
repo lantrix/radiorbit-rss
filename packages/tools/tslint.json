@@ -3,7 +3,15 @@
     "extends": [
         "tslint:recommended"
     ],
-    "jsRules": {},
-    "rules": {},
+    "jsRules": {
+        "curly": true
+    },
+    "rules": {
+        "curly": true,
+        "no-empty-interface": false,
+        "object-literal-sort-keys": false,
+        "await-promise": true,
+        "no-unused-variable": true
+    },
     "rulesDirectory": []
 }
