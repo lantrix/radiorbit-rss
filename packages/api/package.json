@@ -2,13 +2,25 @@
   "name": "radiorbit-rss-api",
   "version": "0.0.1",
   "description": "API for RSS Generator for Radio Orbit - mikehagan.com",
-  "main": "handler.ts",
-  "repository": "https://github.com/lantrix/radiorbit-rss.git",
   "author": "Lantrix <lantrix@pobox.com>",
+  "homepage": "https://github.com/lantrix/radiorbit-rss#readme",
   "license": "BSD-3-Clause",
-  "devDependencies": {
-    "@types/aws-lambda": "^8.10.23",
-    "serverless-offline": "^4.9.2",
-    "serverless-plugin-typescript": "^1.1.5"
+  "main": "lib/handler.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lantrix/radiorbit-rss.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/lantrix/radiorbit-rss/issues"
   }
 }
