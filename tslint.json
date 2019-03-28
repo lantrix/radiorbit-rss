@@ -1,11 +1,14 @@
 {
     "extends": "tslint:recommended",
+    "defaultSeverity": "error",
     "rules": {
         "curly": true,
         "no-empty-interface": false,
         "object-literal-sort-keys": false,
-        "await-promise": true,
-        "no-unused-variable": true
+        "member-access": [
+            true,
+            "no-public"
+        ]
     },
     "jsRules": {
         "curly": true

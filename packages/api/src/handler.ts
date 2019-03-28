@@ -1,4 +1,4 @@
-export class api {
+export class Api {
   get(x) {
     return {};
   }

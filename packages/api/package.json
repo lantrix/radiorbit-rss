@@ -14,8 +14,8 @@
     "lib"
   ],
   "scripts": {
+    "tsc": "tsc",
     "clean": "./task clean",
-    "compile": "./task compile",
     "test": "./task test",
     "lint": "./task lint"
   },

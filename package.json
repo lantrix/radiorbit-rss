@@ -11,11 +11,10 @@
     "packages/*"
   ],
   "scripts": {
-    "compile": "lerna run compile",
+    "compile": "lerna run tsc",
     "clean": "lerna run clean",
     "lint": "lerna run lint",
     "test": "lerna run test",
-    "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint"
   },
   "devDependencies": {
