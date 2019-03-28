@@ -13,6 +13,12 @@
   "files": [
     "lib"
   ],
+  "scripts": {
+    "clean": "./task clean",
+    "compile": "./task compile",
+    "test": "./task test",
+    "lint": "./task lint"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lantrix/radiorbit-rss.git"
