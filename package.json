@@ -15,8 +15,10 @@
     "lint": "lerna run lint",
     "test": "lerna run test",
     "check-packages": "yarn clean && yarn test && yarn lint",
+    "deploy": "./node_modules/.bin/sls deploy --stage=$NODE_ENV"
   },
   "devDependencies": {
-    "lerna": "^3.13.1"
+    "lerna": "^3.13.1",
+    "serverless-plugin-monorepo": "^0.7.0"
   }
 }

@@ -20,3 +20,4 @@ functions:
 
 plugins:
   - serverless-offline
+  - serverless-plugin-monorepo
