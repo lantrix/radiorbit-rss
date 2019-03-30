@@ -19,7 +19,7 @@ case $CMD in
     ;;
     
   lint)
-    exe "../../node_modules/.bin/tslint --config $(pwd)/tslint.json 'src/**/*.ts'"
+    exe "../../node_modules/.bin/eslint ./*.js ./__tests__ -c $(pwd)/eslint.config.js --report-unused-disable-directives"
     ;;
     
   *)

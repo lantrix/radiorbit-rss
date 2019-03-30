@@ -8,7 +8,7 @@ package:
   exclude:
     - packages/api/node_modules/**/*
   include:
-    packages/api/handler.ts
+    packages/api/handler.js
 
 functions:
   hello:
@@ -19,5 +19,4 @@ functions:
           method: get
 
 plugins:
-  - serverless-plugin-typescript
   - serverless-offline

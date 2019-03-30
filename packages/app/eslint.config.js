@@ -1,0 +1,1 @@
+module.exports = require("awesome-tools/eslint.config.js");

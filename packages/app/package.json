@@ -5,7 +5,7 @@
   "author": "Lantrix <lantrix@pobox.com>",
   "homepage": "https://github.com/lantrix/radiorbit-rss#readme",
   "license": "BSD-3-Clause",
-  "main": "lib/app.js",
+  "main": "handler.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -14,7 +14,6 @@
     "lib"
   ],
   "scripts": {
-    "tsc": "tsc",
     "clean": "./task clean",
     "test": "./task test",
     "lint": "./task lint"
