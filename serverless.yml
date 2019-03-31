@@ -21,3 +21,4 @@ functions:
 plugins:
   - serverless-offline
   - serverless-plugin-monorepo
+  - serverless-plugin-warmup
