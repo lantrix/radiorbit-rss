@@ -13,11 +13,11 @@ package:
   exclude:
     - packages/api/node_modules/**/*
   include:
-    packages/api/handler.js
+    - packages/api/handler.js
 
 functions:
   api:
-    handler: handler.api
+    handler: packages/api/handler.api
     events:
       - http:
           path: /
