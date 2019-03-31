@@ -3,11 +3,6 @@ provider:
   name: aws
   runtime: nodejs8.10
   region: us-east-2
-  stackTags:
-    service: ${{self:service}}
-    stage: ${{self:provider.stage}}
-    region: ${{self:provider.region}}
-    version: ${{file(./package.json):version}}
 
 package:
   exclude:

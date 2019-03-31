@@ -9,7 +9,7 @@ module.exports.api = async (event) => {
     return {
         statusCode: 200,
         body: JSON.stringify({
-            message: 'Function executed successfully!',
+            message: 'Function executed!',
             input: event,
         }),
     };
