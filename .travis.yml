@@ -4,7 +4,9 @@ node_js:
 branches:
 only:
   - master
+before_install:
+  - yarn install
 install:
-  - npm install -g serverless
+  - yarn global add serverless
 after_script:
   - serverless deploy -v
