@@ -1,12 +1,9 @@
 language: node_js
 node_js:
-  - '8.15.1'
-branches:
-only:
-  - master
-before_install:
-  - yarn install
-install:
-  - yarn global add serverless
-after_script:
-  - serverless deploy -v
+  - '8'
+cache:
+  directories:
+    - node_modules
+script: 
+    - yarn global add serverless
+    - sls deploy -v
