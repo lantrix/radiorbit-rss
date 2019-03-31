@@ -2625,7 +2625,7 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-extra@^7.0.0:
+fs-extra@^7.0.0, fs-extra@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-7.0.1.tgz#4f189c44aa123b895f722804f55ea23eadc348e9"
   integrity sha512-YJDaCJZEnBmcbw13fvdAM9AwNOJwOzrE4pqMqBq5nFiEqXUqHwlK4B+3pUw6JNvfSPtX05xFHtYy/1ni01eGCw==
@@ -5763,6 +5763,13 @@ serverless-plugin-monorepo@^0.7.0:
   integrity sha512-teGIWxQo61ly1ml3AhKloSlr3bXIHvcY7zhC31DfcBjhtgGEmKzP6oWuNI1WbWYEmvziZk/fzeVpyKYPzC3XiQ==
   dependencies:
     fs-extra "^7.0.0"
+
+serverless-plugin-warmup@^4.5.3-rc.1:
+  version "4.5.3-rc.1"
+  resolved "https://registry.yarnpkg.com/serverless-plugin-warmup/-/serverless-plugin-warmup-4.5.3-rc.1.tgz#77ba5f4d491a0a34b7af7e43c58668b8f3fbfe68"
+  integrity sha512-ojd/KHnPX/b4TQjxj7+eaobC5y50fIunMVQNCH6SA6FoYZcqs5DCLSIL3n7eLANKOtD3QmM0pvTpSnEgHhx86Q==
+  dependencies:
+    fs-extra "^7.0.1"
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
