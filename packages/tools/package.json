@@ -21,7 +21,7 @@
     "eslint-config-prettier": "^4.1.0",
     "jest": "^25.0.0",
     "prettier": "^1.16.4",
-    "snyk": "^1.189.0"
+    "snyk": "^1.323.1"
   },
   "snyk": true
 }
