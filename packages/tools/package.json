@@ -1,23 +1,27 @@
 {
-    "name": "awesome-tools",
-    "version": "1.0.0",
-    "repository": "https://github.com/lantrix/radiorbit-rss.git",
-    "author": "Lantrix <lantrix@pobox.com>",
-    "license": "BSD-3-Clause",
-    "description": "Awesome Tools",
-    "files": [
-        "eslint.config.js",
-        "jest.config.js",
-        "prettier.config.js"
-    ],
-    "scripts": {
-        "test": "./task test",
-        "lint": "exit 0"
-    },
-    "dependencies": {
-        "eslint": "^6.0.0",
-        "eslint-config-prettier": "^4.1.0",
-        "jest": "^25.0.0",
-        "prettier": "^1.16.4"
-    }
+  "name": "awesome-tools",
+  "version": "1.0.0",
+  "repository": "https://github.com/lantrix/radiorbit-rss.git",
+  "author": "Lantrix <lantrix@pobox.com>",
+  "license": "BSD-3-Clause",
+  "description": "Awesome Tools",
+  "files": [
+    "eslint.config.js",
+    "jest.config.js",
+    "prettier.config.js"
+  ],
+  "scripts": {
+    "test": "./task test",
+    "lint": "exit 0",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "dependencies": {
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^4.1.0",
+    "jest": "^25.0.0",
+    "prettier": "^1.16.4",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
