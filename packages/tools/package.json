@@ -19,7 +19,7 @@
   "dependencies": {
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^4.1.0",
-    "jest": "^26.0.0",
+    "jest": "^27.0.0",
     "prettier": "^1.16.4",
     "snyk": "^1.323.1"
   },
