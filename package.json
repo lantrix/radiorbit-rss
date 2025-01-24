@@ -18,7 +18,7 @@
     "deploy": "./node_modules/.bin/sls deploy --stage=$NODE_ENV"
   },
   "devDependencies": {
-    "lerna": "^3.13.1",
+    "lerna": "^8.0.0",
     "serverless-offline": "^4.9.2",
     "serverless-plugin-monorepo": "^0.7.0",
     "serverless-plugin-warmup": "^4.5.3-rc.1"
