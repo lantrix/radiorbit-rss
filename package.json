@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "lerna": "^3.13.1",
-    "serverless-offline": "^4.9.2",
+    "serverless-offline": "^14.0.0",
     "serverless-plugin-monorepo": "^0.7.0",
     "serverless-plugin-warmup": "^4.5.3-rc.1"
   }
